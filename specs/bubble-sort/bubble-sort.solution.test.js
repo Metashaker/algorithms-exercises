@@ -8,8 +8,9 @@
   Bubble sort works by comparing two adjacent numbers next to each other and then
   swapping their places if the smaller index's value is larger than the larger
   index's. Continue looping through until all values are in ascending order
+  
+  Link: https://btholt.github.io/complete-intro-to-computer-science/bubble-sort/
 */
-
 function bubbleSort(nums) {
   let swapped = false;
   do {
