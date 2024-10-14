@@ -11,7 +11,7 @@
 function insertionSort(nums) {
   for (let i = 1; i < nums.length; i++) {
     let numberToInsert = nums[i]; // the numberToInsert number we're looking to insert
-    let j; // the inner counter
+    let j = i - 1; // the inner counter
 
     // loop from the right to the left
     for (j = i - 1; nums[j] > numberToInsert && j >= 0; j--) {
